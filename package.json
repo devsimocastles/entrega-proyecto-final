@@ -1,6 +1,5 @@
 {
   "name": "entrega-final-diplomado",
-  "homepage": "https://devsimocastles.github.io/proyecto-final",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
