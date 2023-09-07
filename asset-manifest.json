@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/entrega-proyecto-final/static/css/main.8e15d2bf.css",
+    "main.js": "/entrega-proyecto-final/static/js/main.e64bee0f.js",
+    "index.html": "/entrega-proyecto-final/index.html",
+    "main.8e15d2bf.css.map": "/entrega-proyecto-final/static/css/main.8e15d2bf.css.map",
+    "main.e64bee0f.js.map": "/entrega-proyecto-final/static/js/main.e64bee0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e15d2bf.css",
+    "static/js/main.e64bee0f.js"
+  ]
+}
