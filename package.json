@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "https://github.com/devsimocastles/proyecto-final",
   "homepage": "",
+=======
+  "name": "entrega-final-diplomado",
+  "homepage": "https://github.com/devsimocastles/proyecto-final",
+>>>>>>> 669080aa879b311d02dc30519751a941705b7562
   "version": "0.1.0",
   "private": true,
   "dependencies": {
