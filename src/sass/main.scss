@@ -1,0 +1,38 @@
+
+// FONT IMPORT: INTER ////////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+$font: 'Inter', sans-serif;
+
+
+// PARTIALS IMPORT ///////////////////////////////
+@import "vars";
+@import "navbar";
+@import "formularios";
+@import "home_y_productos";
+@import "visualizador_producto";
+
+
+// CSS RESET /////////////////////////////////////
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    font-family: $font;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+footer{
+    background-color: $office_green;
+    margin-top: 6em;
+    padding: 3em;
+    text-align: center;
+    color: $magnolia;
+    h4{margin-bottom: 1em;}
+}

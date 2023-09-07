@@ -1,0 +1,54 @@
+
+
+.contenedor_producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .producto{
+        padding: 10em 0 0 0;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        .imagen{
+            img{
+                width: 80%;
+                height: auto;
+            }
+        }
+        .contenido{
+            list-style: none;
+            width: 70%;
+            li{
+                margin-bottom: 1em;
+                &.titulo{
+                    font-size: 2em;
+                }
+                &.precio{
+                    font-size: 1.5em;
+                }
+                &.descripcion{
+                    line-height: 1.7;
+                }
+                &.comprar{
+                    margin-top: 2em;
+                    button{
+                        color: $magnolia;
+                        border: none;
+                        width: 10.5em;
+                        height: 3em;
+                        font-family: $font;
+                        font-weight: 700;
+                        font-size: 1em;
+                        &.inactivo{
+                            background-color: $apple_green;
+                        }
+                        &.activo{
+                            background-color: $office_green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
